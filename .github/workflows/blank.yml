@@ -35,8 +35,6 @@ jobs:
       - name: Install Postman CLI
         run: |
           curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sudo bash
-          postman login --with-api-key PMAK-6567ac7a1dfccd00389872f9-46d0855ba2b85fd01d5f2c81876635f06f
-          postman collection run "26798617-8d4e9692-f299-4335-98e3-49e99205adf7" -e "26798617-2e34d89e-5de0-4fc2-9ad5-d0f618c889c3"
-
+         
         
     
